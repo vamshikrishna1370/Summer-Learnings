@@ -1,14 +1,14 @@
 import smtplib
 
-fromaddr = 'vamshianireddy1370@gmail.com'
-toaddrs  = 'vamshianireddy1370@gmail.com'
-cc = ['avkr.rkva2005@gmail.com','ani.reddy@iitg.ernet.in']
-bcc = ['sridevianireddy@gmail.com']
-message_subject = "Vamshi Learning to send automatic mails..."
-message_text = "hello vamshi this is machine generated mail, please try to co-operate with us."
+fromaddr = '****@gmail.com'
+toaddrs  = '****@gmail.com'
+cc = ['*****@gmail.com','****@iitg.ernet.in']
+bcc = ['***@gmail.com']
+message_subject = "***..."
+message_text = "***."
 #msg = 'hello vamshi this is machine generated mail, please try to co-operate with us'
-username = 'vamshianireddy1370@gmail.com'
-password = '1370VamshI'
+username = '***@gmail.com'
+password = '8888888'
 server = smtplib.SMTP('smtp.gmail.com:587')
 
 server.ehlo()
