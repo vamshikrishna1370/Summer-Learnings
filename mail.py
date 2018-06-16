@@ -20,30 +20,3 @@ toaddrs = [toaddrs] + cc + bcc
 server.set_debuglevel(1)
 server.sendmail(fromaddr, toaddrs, message)
 server.quit()
-
-
-# server.ehlo()
-# server.starttls()
-
-# server.login(username,password)
-# server.sendmail(fromaddr, toaddrs, msg)
-# server.quit()
-
-
-# toaddr = 'buffy@sunnydale.k12.ca.us'
-# cc = ['alexander@sunydale.k12.ca.us','willow@sunnydale.k12.ca.us']
-# bcc = ['chairman@slayerscouncil.uk']
-# fromaddr = 'giles@sunnydale.k12.ca.us'
-# message_subject = "disturbance in sector 7"
-# message_text = "Three are dead in an attack in the sewers below sector 7."
-# message = "From: %s\r\n" % fromaddr
-#         + "To: %s\r\n" % toaddr
-#         + "CC: %s\r\n" % ",".join(cc)
-#         + "Subject: %s\r\n" % message_subject
-#         + "\r\n" 
-#         + message_text
-# toaddrs = [toaddr] + cc + bcc
-
-# server.set_debuglevel(1)
-# server.sendmail(fromaddr, toaddrs, message)
-# server.quit()
